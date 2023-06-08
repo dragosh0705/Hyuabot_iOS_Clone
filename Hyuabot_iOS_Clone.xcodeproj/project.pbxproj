@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D58339062A31EAFE00AA47CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58339052A31EAFE00AA47CB /* AppDelegate.swift */; };
+		D58339082A31EAFE00AA47CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58339072A31EAFE00AA47CB /* SceneDelegate.swift */; };
+		D583390A2A31EAFE00AA47CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58339092A31EAFE00AA47CB /* ViewController.swift */; };
+		D583390D2A31EAFE00AA47CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D583390B2A31EAFE00AA47CB /* Main.storyboard */; };
+		D583390F2A31EAFE00AA47CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D583390E2A31EAFE00AA47CB /* Assets.xcassets */; };
+		D58339122A31EAFE00AA47CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58339102A31EAFE00AA47CB /* LaunchScreen.storyboard */; };
+		D583391D2A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583391C2A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.swift */; };
+		D58339272A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58339262A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.swift */; };
+		D58339292A31EAFF00AA47CB /* Hyuabot_iOS_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58339282A31EAFF00AA47CB /* Hyuabot_iOS_CloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D58339192A31EAFE00AA47CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D58338FA2A31EAFE00AA47CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58339012A31EAFE00AA47CB;
+			remoteInfo = Hyuabot_iOS_Clone;
+		};
+		D58339232A31EAFE00AA47CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D58338FA2A31EAFE00AA47CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58339012A31EAFE00AA47CB;
+			remoteInfo = Hyuabot_iOS_Clone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D58339022A31EAFE00AA47CB /* Hyuabot_iOS_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hyuabot_iOS_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58339052A31EAFE00AA47CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D58339072A31EAFE00AA47CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D58339092A31EAFE00AA47CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D583390C2A31EAFE00AA47CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D583390E2A31EAFE00AA47CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58339112A31EAFE00AA47CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58339132A31EAFE00AA47CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58339182A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hyuabot_iOS_CloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D583391C2A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyuabot_iOS_CloneTests.swift; sourceTree = "<group>"; };
+		D58339222A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hyuabot_iOS_CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58339262A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyuabot_iOS_CloneUITests.swift; sourceTree = "<group>"; };
+		D58339282A31EAFF00AA47CB /* Hyuabot_iOS_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyuabot_iOS_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D58338FF2A31EAFE00AA47CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58339152A31EAFE00AA47CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583391F2A31EAFE00AA47CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D58338F92A31EAFE00AA47CB = {
+			isa = PBXGroup;
+			children = (
+				D58339042A31EAFE00AA47CB /* Hyuabot_iOS_Clone */,
+				D583391B2A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests */,
+				D58339252A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests */,
+				D58339032A31EAFE00AA47CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D58339032A31EAFE00AA47CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58339022A31EAFE00AA47CB /* Hyuabot_iOS_Clone.app */,
+				D58339182A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.xctest */,
+				D58339222A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58339042A31EAFE00AA47CB /* Hyuabot_iOS_Clone */ = {
+			isa = PBXGroup;
+			children = (
+				D58339052A31EAFE00AA47CB /* AppDelegate.swift */,
+				D58339072A31EAFE00AA47CB /* SceneDelegate.swift */,
+				D58339092A31EAFE00AA47CB /* ViewController.swift */,
+				D583390B2A31EAFE00AA47CB /* Main.storyboard */,
+				D583390E2A31EAFE00AA47CB /* Assets.xcassets */,
+				D58339102A31EAFE00AA47CB /* LaunchScreen.storyboard */,
+				D58339132A31EAFE00AA47CB /* Info.plist */,
+			);
+			path = Hyuabot_iOS_Clone;
+			sourceTree = "<group>";
+		};
+		D583391B2A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				D583391C2A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.swift */,
+			);
+			path = Hyuabot_iOS_CloneTests;
+			sourceTree = "<group>";
+		};
+		D58339252A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D58339262A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.swift */,
+				D58339282A31EAFF00AA47CB /* Hyuabot_iOS_CloneUITestsLaunchTests.swift */,
+			);
+			path = Hyuabot_iOS_CloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58339012A31EAFE00AA47CB /* Hyuabot_iOS_Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D583392C2A31EAFF00AA47CB /* Build configuration list for PBXNativeTarget "Hyuabot_iOS_Clone" */;
+			buildPhases = (
+				D58338FE2A31EAFE00AA47CB /* Sources */,
+				D58338FF2A31EAFE00AA47CB /* Frameworks */,
+				D58339002A31EAFE00AA47CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hyuabot_iOS_Clone;
+			productName = Hyuabot_iOS_Clone;
+			productReference = D58339022A31EAFE00AA47CB /* Hyuabot_iOS_Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58339172A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D583392F2A31EAFF00AA47CB /* Build configuration list for PBXNativeTarget "Hyuabot_iOS_CloneTests" */;
+			buildPhases = (
+				D58339142A31EAFE00AA47CB /* Sources */,
+				D58339152A31EAFE00AA47CB /* Frameworks */,
+				D58339162A31EAFE00AA47CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D583391A2A31EAFE00AA47CB /* PBXTargetDependency */,
+			);
+			name = Hyuabot_iOS_CloneTests;
+			productName = Hyuabot_iOS_CloneTests;
+			productReference = D58339182A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D58339212A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58339322A31EAFF00AA47CB /* Build configuration list for PBXNativeTarget "Hyuabot_iOS_CloneUITests" */;
+			buildPhases = (
+				D583391E2A31EAFE00AA47CB /* Sources */,
+				D583391F2A31EAFE00AA47CB /* Frameworks */,
+				D58339202A31EAFE00AA47CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58339242A31EAFE00AA47CB /* PBXTargetDependency */,
+			);
+			name = Hyuabot_iOS_CloneUITests;
+			productName = Hyuabot_iOS_CloneUITests;
+			productReference = D58339222A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D58338FA2A31EAFE00AA47CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D58339012A31EAFE00AA47CB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D58339172A31EAFE00AA47CB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D58339012A31EAFE00AA47CB;
+					};
+					D58339212A31EAFE00AA47CB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D58339012A31EAFE00AA47CB;
+					};
+				};
+			};
+			buildConfigurationList = D58338FD2A31EAFE00AA47CB /* Build configuration list for PBXProject "Hyuabot_iOS_Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D58338F92A31EAFE00AA47CB;
+			productRefGroup = D58339032A31EAFE00AA47CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58339012A31EAFE00AA47CB /* Hyuabot_iOS_Clone */,
+				D58339172A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests */,
+				D58339212A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58339002A31EAFE00AA47CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58339122A31EAFE00AA47CB /* LaunchScreen.storyboard in Resources */,
+				D583390F2A31EAFE00AA47CB /* Assets.xcassets in Resources */,
+				D583390D2A31EAFE00AA47CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58339162A31EAFE00AA47CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58339202A31EAFE00AA47CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D58338FE2A31EAFE00AA47CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583390A2A31EAFE00AA47CB /* ViewController.swift in Sources */,
+				D58339062A31EAFE00AA47CB /* AppDelegate.swift in Sources */,
+				D58339082A31EAFE00AA47CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58339142A31EAFE00AA47CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D583391D2A31EAFE00AA47CB /* Hyuabot_iOS_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D583391E2A31EAFE00AA47CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58339272A31EAFE00AA47CB /* Hyuabot_iOS_CloneUITests.swift in Sources */,
+				D58339292A31EAFF00AA47CB /* Hyuabot_iOS_CloneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D583391A2A31EAFE00AA47CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58339012A31EAFE00AA47CB /* Hyuabot_iOS_Clone */;
+			targetProxy = D58339192A31EAFE00AA47CB /* PBXContainerItemProxy */;
+		};
+		D58339242A31EAFE00AA47CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58339012A31EAFE00AA47CB /* Hyuabot_iOS_Clone */;
+			targetProxy = D58339232A31EAFE00AA47CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D583390B2A31EAFE00AA47CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D583390C2A31EAFE00AA47CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58339102A31EAFE00AA47CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58339112A31EAFE00AA47CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D583392A2A31EAFF00AA47CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D583392B2A31EAFF00AA47CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D583392D2A31EAFF00AA47CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hyuabot_iOS_Clone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YWC.Hyuabot-iOS-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D583392E2A31EAFF00AA47CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hyuabot_iOS_Clone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YWC.Hyuabot-iOS-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D58339302A31EAFF00AA47CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YWC.Hyuabot-iOS-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyuabot_iOS_Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hyuabot_iOS_Clone";
+			};
+			name = Debug;
+		};
+		D58339312A31EAFF00AA47CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YWC.Hyuabot-iOS-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyuabot_iOS_Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hyuabot_iOS_Clone";
+			};
+			name = Release;
+		};
+		D58339332A31EAFF00AA47CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YWC.Hyuabot-iOS-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hyuabot_iOS_Clone;
+			};
+			name = Debug;
+		};
+		D58339342A31EAFF00AA47CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CY7T52VJ8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YWC.Hyuabot-iOS-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hyuabot_iOS_Clone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D58338FD2A31EAFE00AA47CB /* Build configuration list for PBXProject "Hyuabot_iOS_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583392A2A31EAFF00AA47CB /* Debug */,
+				D583392B2A31EAFF00AA47CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D583392C2A31EAFF00AA47CB /* Build configuration list for PBXNativeTarget "Hyuabot_iOS_Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D583392D2A31EAFF00AA47CB /* Debug */,
+				D583392E2A31EAFF00AA47CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D583392F2A31EAFF00AA47CB /* Build configuration list for PBXNativeTarget "Hyuabot_iOS_CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58339302A31EAFF00AA47CB /* Debug */,
+				D58339312A31EAFF00AA47CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58339322A31EAFF00AA47CB /* Build configuration list for PBXNativeTarget "Hyuabot_iOS_CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58339332A31EAFF00AA47CB /* Debug */,
+				D58339342A31EAFF00AA47CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D58338FA2A31EAFE00AA47CB /* Project object */;
+}
